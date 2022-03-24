@@ -7,6 +7,12 @@ terraform {
       version = "3.0.1"
     }
   }
+  cloud {
+    organization = "michaelyocca"
+    workspaces {
+      name = "Learn-State-Migration-Workspace"
+    }
+  }
   required_version = ">= 1.1.0"
 }
 
